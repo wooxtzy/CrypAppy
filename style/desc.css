@@ -1,0 +1,84 @@
+.desc__text-title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+
+}
+
+.desc__text-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    text-align: center;
+}
+
+.desc__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.desc {
+    padding: 180px 0;
+    background: #0C0D2E;
+    z-index: -10;
+}
+
+.desc__benefit {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border-radius: 15px;
+    padding: 12px;
+    transition: all linear 0.2s;
+}
+
+.desc__benefit__text {
+    width: 270px;
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+}
+
+.desc__benefit__title {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.desc__benefit__button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: 'LS';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: all 0.2s linear;
+    color: #159BE8;
+}
+
+.desc__benefits{
+    display: flex;
+    gap: 96px;
+}
+
+.desc__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.desc__benefit:hover{
+    background: #010225;
+    transform: translateY(-10px);
+}
