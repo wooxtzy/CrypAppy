@@ -2,7 +2,8 @@
     padding: 14px 0;
     z-index: 2;
     background: rgba(12, 13, 46, 90%);
-    position: relative;
+    position: fixed;
+    width: 100%;
 }
 
 .header__wrap {
